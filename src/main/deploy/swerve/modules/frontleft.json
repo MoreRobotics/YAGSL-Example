@@ -7,7 +7,7 @@
   "drive": {
     "type": "falcon",
     "id": 0,
-    "canbus": null
+    "canbus": 0
   },
   "inverted": {
     "drive": true,
@@ -16,7 +16,7 @@
   "angle": {
     "type": "sparkmax",
     "id": 1,
-    "canbus": null
+    "canbus": 1
   },
   "conversionFactor": {
     "angle": 1.27,

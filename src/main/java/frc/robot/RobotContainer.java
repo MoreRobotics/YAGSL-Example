@@ -4,6 +4,7 @@
 
 package frc.robot;
 
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.math.MathUtil;
 import edu.wpi.first.wpilibj.Filesystem;
 import edu.wpi.first.wpilibj.RobotBase;
@@ -21,6 +22,7 @@ import frc.robot.commands.swervedrive.drivebase.AbsoluteFieldDrive;
 import frc.robot.commands.swervedrive.drivebase.TeleopDrive;
 import frc.robot.subsystems.swervedrive.SwerveSubsystem;
 import java.io.File;
+
 
 /**
  * This class is where the bulk of the robot should be declared. Since Command-based is a "declarative" paradigm, very
@@ -46,6 +48,7 @@ public class RobotContainer
   public RobotContainer()
   {
     // Configure the trigger bindings
+    SmartDashboard.putString("YAGSL", "test");
     configureBindings();
 
     AbsoluteDrive closedAbsoluteDrive = new AbsoluteDrive(drivebase,
