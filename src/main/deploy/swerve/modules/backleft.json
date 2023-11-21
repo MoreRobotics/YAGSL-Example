@@ -24,7 +24,7 @@
   },
   "encoder": {
     "type": "attached",
-    "id": null,
-    "canbus": null
+    "id": 5,
+    "canbus": 5
   }
 }
